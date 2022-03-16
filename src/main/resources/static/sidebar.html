@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8" />
+        <title th:utext="${title}" />
+        <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+    </head>
+    <body>
+<center>
+        <h1 th:utext="${title}" />
+</center>
+        <a th:href="@{/contacts}">Contact List</a>  
+        <br/><br/>
+
+<a th:href="@{/api/total}">Global/Country</a>  
+        <br/><br/>
+
+<a th:href="@{/api/summary?page=1&size=50}">Summary</a>  
+        <br/><br/>
+        
+    </body>
+</html>

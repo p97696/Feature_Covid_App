@@ -1,0 +1,1 @@
+https://rapidapi.com/KishCom/api/covid-19-coronavirus-statistics
